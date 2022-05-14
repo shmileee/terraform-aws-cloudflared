@@ -12,6 +12,12 @@ ECS container:
 * Stream logs to a CloudWatch log group encrypted with a KMS key
 * Supports running ECS tasks on Fargate
 
+## Docker Image
+
+To run this module, you can either use the default Docker image
+`docker.io/shmileee/cloudflared-tunnel:latest` or build your own. For relevant
+files, see [`./docker`](./docker) directory.
+
 ## Usage
 
 ```hcl

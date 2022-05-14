@@ -1,3 +1,7 @@
+# ------------------------------------------------------------------------------
+# Locals
+# ------------------------------------------------------------------------------
+
 locals {
   awslogs_group = var.logs_cloudwatch_group == "" ? "/ecs/${var.environment}/${var.name_prefix}" : var.logs_cloudwatch_group
   default_container_definitions = jsonencode(

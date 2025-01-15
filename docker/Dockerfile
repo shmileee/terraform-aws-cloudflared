@@ -1,4 +1,4 @@
-FROM cloudflare/cloudflared:2022.5.1 as cloudflared
+FROM cloudflare/cloudflared:2022.5.3 as cloudflared
 FROM alpine:3.21.2
 
 WORKDIR /project

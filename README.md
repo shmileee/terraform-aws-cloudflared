@@ -3,7 +3,7 @@
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
 [![latest release](https://img.shields.io/github/v/release/shmileee/terraform-aws-cloudflared?style=flat-square)](https://github.com/shmileee/terraform-aws-cloudflared/releases/latest)
-[![build status](https://img.shields.io/github/workflow/status/shmileee/terraform-aws-cloudflared/workflow?label=build&logo=github&style=flat-square)](https://github.com/shmileee/terraform-aws-cloudflared/actions?query=workflow%3Atest)
+[![build status]([https://img.shields.io/github/workflow/status/shmileee/terraform-aws-cloudflared/workflow?label=build&logo=github&style=flat-square](https://img.shields.io/github/actions/workflow/status/shmileee/terraform-aws-cloudflared/main.yml?branch=main))](https://github.com/shmileee/terraform-aws-cloudflared/actions?query=workflow)
 
 Terraform module which creates Cloudflare Zero Trust tunnel on AWS running as a
 ECS container:

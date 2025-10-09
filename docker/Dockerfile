@@ -1,5 +1,5 @@
 FROM cloudflare/cloudflared:2025.1.0 as cloudflared
-FROM alpine:3.21.2
+FROM alpine:3.21.5
 
 WORKDIR /project
 
